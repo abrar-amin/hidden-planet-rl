@@ -1,0 +1,876 @@
+{
+ "Fable (oracle)": {
+  "3000": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3001": {
+   "reward": 0.632,
+   "correct": 1.0,
+   "spent": 46.0,
+   "v": "planet"
+  },
+  "3002": {
+   "reward": -1.24,
+   "correct": 0.0,
+   "spent": 30.0,
+   "v": "none"
+  },
+  "3003": {
+   "reward": 0.728,
+   "correct": 1.0,
+   "spent": 34.0,
+   "v": "planet"
+  },
+  "3004": {
+   "reward": 0.6799999999999999,
+   "correct": 1.0,
+   "spent": 40.0,
+   "v": "planet"
+  },
+  "3005": {
+   "reward": 0.6799999999999999,
+   "correct": 1.0,
+   "spent": 40.0,
+   "v": "planet"
+  },
+  "3006": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  },
+  "3007": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  },
+  "3008": {
+   "reward": -1.464,
+   "correct": 0.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3009": {
+   "reward": 0.632,
+   "correct": 1.0,
+   "spent": 46.0,
+   "v": "planet"
+  },
+  "3010": {
+   "reward": 0.6799999999999999,
+   "correct": 1.0,
+   "spent": 40.0,
+   "v": "planet"
+  },
+  "3011": {
+   "reward": -1.464,
+   "correct": 0.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3012": {
+   "reward": -0.20800000000000002,
+   "correct": 0.0,
+   "spent": 26.0,
+   "v": "cannot"
+  },
+  "3013": {
+   "reward": 0.88,
+   "correct": 1.0,
+   "spent": 15.0,
+   "v": "none"
+  },
+  "3014": {
+   "reward": 0.688,
+   "correct": 1.0,
+   "spent": 39.0,
+   "v": "planet"
+  },
+  "3015": {
+   "reward": 0.52,
+   "correct": 1.0,
+   "spent": 60.0,
+   "v": "planet"
+  },
+  "3016": {
+   "reward": 0.528,
+   "correct": 1.0,
+   "spent": 59.0,
+   "v": "planet"
+  },
+  "3017": {
+   "reward": 0.736,
+   "correct": 1.0,
+   "spent": 33.0,
+   "v": "planet"
+  },
+  "3018": {
+   "reward": 0.688,
+   "correct": 1.0,
+   "spent": 39.0,
+   "v": "planet"
+  },
+  "3019": {
+   "reward": 0.52,
+   "correct": 1.0,
+   "spent": 60.0,
+   "v": "planet"
+  },
+  "3020": {
+   "reward": 0.768,
+   "correct": 1.0,
+   "spent": 29.0,
+   "v": "none"
+  },
+  "3021": {
+   "reward": 0.88,
+   "correct": 1.0,
+   "spent": 15.0,
+   "v": "none"
+  },
+  "3022": {
+   "reward": 0.712,
+   "correct": 1.0,
+   "spent": 36.0,
+   "v": "planet"
+  },
+  "3023": {
+   "reward": 0.768,
+   "correct": 1.0,
+   "spent": 29.0,
+   "v": "none"
+  },
+  "3024": {
+   "reward": 0.736,
+   "correct": 1.0,
+   "spent": 33.0,
+   "v": "planet"
+  },
+  "3025": {
+   "reward": -1.3599999999999999,
+   "correct": 0.0,
+   "spent": 45.0,
+   "v": "planet"
+  },
+  "3026": {
+   "reward": 0.6639999999999999,
+   "correct": 1.0,
+   "spent": 42.0,
+   "v": "planet"
+  },
+  "3027": {
+   "reward": 0.88,
+   "correct": 1.0,
+   "spent": 15.0,
+   "v": "none"
+  },
+  "3028": {
+   "reward": 0.592,
+   "correct": 1.0,
+   "spent": 51.0,
+   "v": "planet"
+  },
+  "3029": {
+   "reward": -0.12,
+   "correct": 0.0,
+   "spent": 15.0,
+   "v": "cannot"
+  },
+  "3030": {
+   "reward": 0.584,
+   "correct": 1.0,
+   "spent": 52.0,
+   "v": "planet"
+  },
+  "3031": {
+   "reward": 0.904,
+   "correct": 1.0,
+   "spent": 12.0,
+   "v": "none"
+  },
+  "3032": {
+   "reward": 0.904,
+   "correct": 1.0,
+   "spent": 12.0,
+   "v": "none"
+  },
+  "3033": {
+   "reward": 0.5680000000000001,
+   "correct": 1.0,
+   "spent": 54.0,
+   "v": "planet"
+  },
+  "3034": {
+   "reward": -0.28800000000000003,
+   "correct": 0.0,
+   "spent": 36.0,
+   "v": "cannot"
+  },
+  "3035": {
+   "reward": -0.096,
+   "correct": 0.0,
+   "spent": 12.0,
+   "v": "cannot"
+  },
+  "3036": {
+   "reward": 0.696,
+   "correct": 1.0,
+   "spent": 38.0,
+   "v": "none"
+  },
+  "3037": {
+   "reward": 0.8240000000000001,
+   "correct": 1.0,
+   "spent": 22.0,
+   "v": "none"
+  },
+  "3038": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3039": {
+   "reward": 0.712,
+   "correct": 1.0,
+   "spent": 36.0,
+   "v": "planet"
+  },
+  "3040": {
+   "reward": 0.904,
+   "correct": 1.0,
+   "spent": 12.0,
+   "v": "none"
+  },
+  "3041": {
+   "reward": -0.36,
+   "correct": 0.0,
+   "spent": 45.0,
+   "v": "cannot"
+  },
+  "3042": {
+   "reward": 0.712,
+   "correct": 1.0,
+   "spent": 36.0,
+   "v": "planet"
+  },
+  "3043": {
+   "reward": 0.904,
+   "correct": 1.0,
+   "spent": 12.0,
+   "v": "none"
+  },
+  "3044": {
+   "reward": 0.52,
+   "correct": 1.0,
+   "spent": 60.0,
+   "v": "planet"
+  },
+  "3045": {
+   "reward": 0.52,
+   "correct": 1.0,
+   "spent": 60.0,
+   "v": "planet"
+  },
+  "3046": {
+   "reward": 0.64,
+   "correct": 1.0,
+   "spent": 45.0,
+   "v": "planet"
+  },
+  "3047": {
+   "reward": 0.64,
+   "correct": 1.0,
+   "spent": 45.0,
+   "v": "planet"
+  }
+ },
+ "Fable (lite)": {
+  "3000": {
+   "reward": 0.52,
+   "correct": 1.0,
+   "spent": 60.0,
+   "v": "planet"
+  },
+  "3001": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3002": {
+   "reward": -1.1280000000000001,
+   "correct": 0.0,
+   "spent": 16.0,
+   "v": "none"
+  },
+  "3003": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3004": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3005": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3006": {
+   "reward": 0.896,
+   "correct": 1.0,
+   "spent": 13.0,
+   "v": "none"
+  },
+  "3007": {
+   "reward": 0.896,
+   "correct": 1.0,
+   "spent": 13.0,
+   "v": "none"
+  },
+  "3008": {
+   "reward": -0.464,
+   "correct": 0.0,
+   "spent": 58.0,
+   "v": "cannot"
+  },
+  "3009": {
+   "reward": 0.6559999999999999,
+   "correct": 1.0,
+   "spent": 43.0,
+   "v": "planet"
+  },
+  "3010": {
+   "reward": 0.632,
+   "correct": 1.0,
+   "spent": 46.0,
+   "v": "planet"
+  },
+  "3011": {
+   "reward": -0.368,
+   "correct": 0.0,
+   "spent": 46.0,
+   "v": "cannot"
+  },
+  "3012": {
+   "reward": -0.10400000000000001,
+   "correct": 0.0,
+   "spent": 13.0,
+   "v": "cannot"
+  },
+  "3013": {
+   "reward": 0.896,
+   "correct": 1.0,
+   "spent": 13.0,
+   "v": "none"
+  },
+  "3014": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3015": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3016": {
+   "reward": -0.2,
+   "correct": 0.0,
+   "spent": 25.0,
+   "v": "cannot"
+  },
+  "3017": {
+   "reward": 0.592,
+   "correct": 1.0,
+   "spent": 51.0,
+   "v": "planet"
+  },
+  "3018": {
+   "reward": 0.5680000000000001,
+   "correct": 1.0,
+   "spent": 54.0,
+   "v": "planet"
+  },
+  "3019": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3020": {
+   "reward": 0.8,
+   "correct": 1.0,
+   "spent": 25.0,
+   "v": "none"
+  },
+  "3021": {
+   "reward": 0.896,
+   "correct": 1.0,
+   "spent": 13.0,
+   "v": "none"
+  },
+  "3022": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3023": {
+   "reward": 0.896,
+   "correct": 1.0,
+   "spent": 13.0,
+   "v": "none"
+  }
+ },
+ "Opus (oracle)": {
+  "3000": {
+   "reward": 0.584,
+   "correct": 1.0,
+   "spent": 52.0,
+   "v": "planet"
+  },
+  "3001": {
+   "reward": 0.632,
+   "correct": 1.0,
+   "spent": 46.0,
+   "v": "planet"
+  },
+  "3002": {
+   "reward": -1.48,
+   "correct": 0.0,
+   "spent": 60.0,
+   "v": "none"
+  },
+  "3003": {
+   "reward": 0.704,
+   "correct": 1.0,
+   "spent": 37.0,
+   "v": "planet"
+  },
+  "3004": {
+   "reward": 0.704,
+   "correct": 1.0,
+   "spent": 37.0,
+   "v": "planet"
+  },
+  "3005": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3006": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  },
+  "3007": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  },
+  "3008": {
+   "reward": -1.464,
+   "correct": 0.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3009": {
+   "reward": 0.704,
+   "correct": 1.0,
+   "spent": 37.0,
+   "v": "planet"
+  },
+  "3010": {
+   "reward": 0.704,
+   "correct": 1.0,
+   "spent": 37.0,
+   "v": "planet"
+  },
+  "3011": {
+   "reward": -1.464,
+   "correct": 0.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3012": {
+   "reward": -1.464,
+   "correct": 0.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3013": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  },
+  "3014": {
+   "reward": 0.704,
+   "correct": 1.0,
+   "spent": 37.0,
+   "v": "planet"
+  },
+  "3015": {
+   "reward": 0.632,
+   "correct": 1.0,
+   "spent": 46.0,
+   "v": "planet"
+  },
+  "3016": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3017": {
+   "reward": 0.728,
+   "correct": 1.0,
+   "spent": 34.0,
+   "v": "planet"
+  },
+  "3018": {
+   "reward": 0.704,
+   "correct": 1.0,
+   "spent": 37.0,
+   "v": "planet"
+  },
+  "3019": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3020": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  },
+  "3021": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  },
+  "3022": {
+   "reward": 0.704,
+   "correct": 1.0,
+   "spent": 37.0,
+   "v": "planet"
+  },
+  "3023": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  }
+ },
+ "Sonnet (oracle)": {
+  "3000": {
+   "reward": 0.584,
+   "correct": 1.0,
+   "spent": 52.0,
+   "v": "planet"
+  },
+  "3001": {
+   "reward": 0.584,
+   "correct": 1.0,
+   "spent": 52.0,
+   "v": "planet"
+  },
+  "3002": {
+   "reward": -1.248,
+   "correct": 0.0,
+   "spent": 31.0,
+   "v": "none"
+  },
+  "3003": {
+   "reward": 0.584,
+   "correct": 1.0,
+   "spent": 52.0,
+   "v": "planet"
+  },
+  "3004": {
+   "reward": 0.584,
+   "correct": 1.0,
+   "spent": 52.0,
+   "v": "planet"
+  },
+  "3005": {
+   "reward": 0.584,
+   "correct": 1.0,
+   "spent": 52.0,
+   "v": "planet"
+  },
+  "3006": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  },
+  "3007": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  },
+  "3008": {
+   "reward": -0.464,
+   "correct": 0.0,
+   "spent": 58.0,
+   "v": "cannot"
+  },
+  "3009": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3010": {
+   "reward": 0.584,
+   "correct": 1.0,
+   "spent": 52.0,
+   "v": "planet"
+  },
+  "3011": {
+   "reward": -1.416,
+   "correct": 0.0,
+   "spent": 52.0,
+   "v": "planet"
+  },
+  "3012": {
+   "reward": -0.128,
+   "correct": 0.0,
+   "spent": 16.0,
+   "v": "cannot"
+  },
+  "3013": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  },
+  "3014": {
+   "reward": 0.584,
+   "correct": 1.0,
+   "spent": 52.0,
+   "v": "planet"
+  },
+  "3015": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3016": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3017": {
+   "reward": 0.6799999999999999,
+   "correct": 1.0,
+   "spent": 40.0,
+   "v": "planet"
+  },
+  "3018": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3019": {
+   "reward": 0.536,
+   "correct": 1.0,
+   "spent": 58.0,
+   "v": "planet"
+  },
+  "3020": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  },
+  "3021": {
+   "reward": 0.752,
+   "correct": 1.0,
+   "spent": 31.0,
+   "v": "none"
+  },
+  "3022": {
+   "reward": 0.584,
+   "correct": 1.0,
+   "spent": 52.0,
+   "v": "planet"
+  },
+  "3023": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  }
+ },
+ "Haiku (oracle)": {
+  "3000": {
+   "reward": 0.56,
+   "correct": 1.0,
+   "spent": 55.0,
+   "v": "planet"
+  },
+  "3001": {
+   "reward": 0.528,
+   "correct": 1.0,
+   "spent": 59.0,
+   "v": "planet"
+  },
+  "3002": {
+   "reward": -1.376,
+   "correct": 0.0,
+   "spent": 47.0,
+   "v": "none"
+  },
+  "3003": {
+   "reward": 0.624,
+   "correct": 1.0,
+   "spent": 47.0,
+   "v": "planet"
+  },
+  "3004": {
+   "reward": 0.624,
+   "correct": 1.0,
+   "spent": 47.0,
+   "v": "planet"
+  },
+  "3005": {
+   "reward": 0.528,
+   "correct": 1.0,
+   "spent": 59.0,
+   "v": "planet"
+  },
+  "3006": {
+   "reward": 0.744,
+   "correct": 1.0,
+   "spent": 32.0,
+   "v": "none"
+  },
+  "3007": {
+   "reward": 0.744,
+   "correct": 1.0,
+   "spent": 32.0,
+   "v": "none"
+  },
+  "3008": {
+   "reward": -0.47200000000000003,
+   "correct": 0.0,
+   "spent": 59.0,
+   "v": "cannot"
+  },
+  "3009": {
+   "reward": 0.624,
+   "correct": 1.0,
+   "spent": 47.0,
+   "v": "planet"
+  },
+  "3010": {
+   "reward": 0.528,
+   "correct": 1.0,
+   "spent": 59.0,
+   "v": "planet"
+  },
+  "3011": {
+   "reward": 0.528,
+   "correct": 1.0,
+   "spent": 59.0,
+   "v": "planet"
+  },
+  "3012": {
+   "reward": -0.47200000000000003,
+   "correct": 0.0,
+   "spent": 59.0,
+   "v": "cannot"
+  },
+  "3013": {
+   "reward": 0.744,
+   "correct": 1.0,
+   "spent": 32.0,
+   "v": "none"
+  },
+  "3014": {
+   "reward": -1.376,
+   "correct": 0.0,
+   "spent": 47.0,
+   "v": "planet"
+  },
+  "3015": {
+   "reward": 0.528,
+   "correct": 1.0,
+   "spent": 59.0,
+   "v": "planet"
+  },
+  "3016": {
+   "reward": -1.472,
+   "correct": 0.0,
+   "spent": 59.0,
+   "v": "planet"
+  },
+  "3017": {
+   "reward": 0.624,
+   "correct": 1.0,
+   "spent": 47.0,
+   "v": "planet"
+  },
+  "3018": {
+   "reward": 0.528,
+   "correct": 1.0,
+   "spent": 59.0,
+   "v": "planet"
+  },
+  "3019": {
+   "reward": 0.624,
+   "correct": 1.0,
+   "spent": 47.0,
+   "v": "planet"
+  },
+  "3020": {
+   "reward": 0.744,
+   "correct": 1.0,
+   "spent": 32.0,
+   "v": "none"
+  },
+  "3021": {
+   "reward": 0.744,
+   "correct": 1.0,
+   "spent": 32.0,
+   "v": "none"
+  },
+  "3022": {
+   "reward": 0.624,
+   "correct": 1.0,
+   "spent": 47.0,
+   "v": "planet"
+  },
+  "3023": {
+   "reward": 0.872,
+   "correct": 1.0,
+   "spent": 16.0,
+   "v": "none"
+  }
+ }
+}

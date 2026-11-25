@@ -1,0 +1,10 @@
+results/easy_val.jsonl: 25/60 85s
+results/easy_val.jsonl: 50/60 155s
+DONE results/easy_val.jsonl
+results/easy_test.jsonl: 25/150 142s
+results/easy_test.jsonl: 50/150 282s
+results/easy_test.jsonl: 75/150 444s
+results/easy_test.jsonl: 100/150 604s
+results/easy_test.jsonl: 125/150 740s
+results/easy_test.jsonl: 150/150 852s
+DONE results/easy_test.jsonl

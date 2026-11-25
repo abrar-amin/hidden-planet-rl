@@ -1,0 +1,10 @@
+results/hard_rv_val.jsonl: 25/60 23s
+results/hard_rv_val.jsonl: 50/60 46s
+DONE results/hard_rv_val.jsonl
+results/hard_rv_test.jsonl: 25/150 30s
+results/hard_rv_test.jsonl: 50/150 64s
+results/hard_rv_test.jsonl: 75/150 93s
+results/hard_rv_test.jsonl: 100/150 126s
+results/hard_rv_test.jsonl: 125/150 157s
+results/hard_rv_test.jsonl: 150/150 191s
+DONE results/hard_rv_test.jsonl

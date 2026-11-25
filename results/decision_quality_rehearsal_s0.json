@@ -1,0 +1,136 @@
+{
+ "policies": [
+  {
+   "label": "step 0",
+   "n": 48,
+   "decision_accuracy": 0.8608878968253969,
+   "ci": [
+    0.7867801339285715,
+    0.9249999999999999
+   ],
+   "brier": 0.03503945454545454,
+   "ece": 0.09654545454545453,
+   "errors": {
+    "blind_commit": 0.041666666666666664,
+    "lowconf_commit": 0.020833333333333332,
+    "wrong_option": 0.0,
+    "premature_abstain": 0.0625,
+    "abstain_when_decided": 0.10416666666666667,
+    "overspend": 0.08333333333333333,
+    "futile_acquire": 0.08333333333333333,
+    "no_tool_call": 0.0
+   },
+   "matches_fit": 1.0
+  },
+  {
+   "label": "step 5",
+   "n": 48,
+   "decision_accuracy": 0.8618716931216932,
+   "ci": [
+    0.7912450396825397,
+    0.922887318121693
+   ],
+   "brier": 0.111708425,
+   "ece": 0.059375000000000025,
+   "errors": {
+    "blind_commit": 0.0,
+    "lowconf_commit": 0.10416666666666667,
+    "wrong_option": 0.0,
+    "premature_abstain": 0.041666666666666664,
+    "abstain_when_decided": 0.020833333333333332,
+    "overspend": 0.14583333333333334,
+    "futile_acquire": 0.125,
+    "no_tool_call": 0.0
+   },
+   "matches_fit": 0.95
+  },
+  {
+   "label": "step 10",
+   "n": 48,
+   "decision_accuracy": 0.9067460317460316,
+   "ci": [
+    0.847718253968254,
+    0.9563492063492064
+   ],
+   "brier": 0.09525466666666665,
+   "ece": 0.0638095238095238,
+   "errors": {
+    "blind_commit": 0.020833333333333332,
+    "lowconf_commit": 0.10416666666666667,
+    "wrong_option": 0.0,
+    "premature_abstain": 0.020833333333333332,
+    "abstain_when_decided": 0.020833333333333332,
+    "overspend": 0.041666666666666664,
+    "futile_acquire": 0.041666666666666664,
+    "no_tool_call": 0.020833333333333332
+   },
+   "matches_fit": 0.9523809523809523
+  }
+ ],
+ "paired": [
+  {
+   "a": "step 0",
+   "b": "step 5",
+   "diff": 0.0009837962962962927,
+   "ci": [
+    -0.0909395667989418,
+    0.09026248346560846
+   ]
+  },
+  {
+   "a": "step 0",
+   "b": "step 10",
+   "diff": 0.04585813492063492,
+   "ci": [
+    -0.042138516865079384,
+    0.13735367063492057
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "teacher",
+   "n": 48,
+   "decision_accuracy": 0.9708333333333332,
+   "ci": [
+    0.9499999999999998,
+    0.9875000000000002
+   ],
+   "brier": 0.04992076923076923,
+   "ece": 0.0603589743589743,
+   "errors": {
+    "blind_commit": 0.0,
+    "lowconf_commit": 0.0,
+    "wrong_option": 0.0,
+    "premature_abstain": 0.14583333333333334,
+    "abstain_when_decided": 0.0,
+    "overspend": 0.0,
+    "futile_acquire": 0.0,
+    "no_tool_call": 0.0
+   },
+   "matches_fit": 1.0
+  },
+  {
+   "label": "eig",
+   "n": 48,
+   "decision_accuracy": 0.9760331682206683,
+   "ci": [
+    0.9579375485625485,
+    0.9904513888888888
+   ],
+   "brier": 0.06493177083333333,
+   "ece": 0.08810416666666661,
+   "errors": {
+    "blind_commit": 0.0,
+    "lowconf_commit": 0.125,
+    "wrong_option": 0.0,
+    "premature_abstain": 0.0,
+    "abstain_when_decided": 0.0,
+    "overspend": 0.0625,
+    "futile_acquire": 0.0,
+    "no_tool_call": 0.0
+   },
+   "matches_fit": 1.0
+  }
+ ]
+}

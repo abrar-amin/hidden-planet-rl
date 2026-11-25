@@ -1,0 +1,9 @@
+preflight setting: reward strict0 (wrong -1.0), cost 0.008/unit, RV availability ideal, tool level lite, demonstrator lite
+preflight: SFT data ['data/expert_lite_hard_strict0.jsonl'] (600 kept episodes: reward >= -9.0 or a correct abstention; 87 abstentions)
+
+PASS  G1 information sufficiency: 251/251 planet answers (100.0 %) reproducible from that episode's tool outputs; 349 non-planet answers need no numbers
+PASS  G3 grader correctness: 53 checks, partial, strict (wrong -0.5 and -1.0) and strict0: max reward, each documented penalty, 'cannot' by the determinable label, cost term for 3 values of --cost-per-unit, reward_std_cost recomputation
+PASS  G4 render round-trip: 50 episodes, 424 tool calls: render -> tokenize (qwen3_5_disable_thinking) -> parse gives identical calls; every tool output appears verbatim; longest episode 5611 tokens (env limit 48,000; model context 64K)
+PASS  G5 SFT datum sanity: 50 episodes: loss weights are zero on every prompt token and positive only on the assistant turn being trained; assistant tokens per episode median 469 (min 254, max 673); no answer precedes the tool output it is copied from
+
+ALL GATES PASS (4 run)

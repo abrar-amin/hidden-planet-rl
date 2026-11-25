@@ -1,0 +1,22 @@
+results/hard_dev.jsonl: 25/96 32s
+results/hard_dev.jsonl: 50/96 61s
+results/hard_dev.jsonl: 75/96 89s
+DONE results/hard_dev.jsonl
+fixed            +0.310 ± 0.097  correct 0.75  spent  40.0  cannot 0.13  n=192  (text interface)
+lite_teacher     +0.332 ± 0.099  correct 0.75  spent  37.9  cannot 0.14  n=192  (text interface)
+fit              +0.490 ± 0.076  correct 0.84  spent  38.3  cannot 0.12  n=192  (text interface)
+compact          +0.139 ± 0.115  correct 0.56  spent  26.2  cannot 0.22  n=192  (text interface)
+compact_smart    +0.284 ± 0.116  correct 0.71  spent  25.7  cannot 0.07  n=192  (text interface)
+eig_text         +0.435 ± 0.094  correct 0.84  spent  38.7  cannot 0.07  n=192  (text interface)
+random           -0.617 ± 0.087  correct 0.07  spent  15.3  cannot 0.37  n=192  (text interface)
+always_none      -0.375 ± 0.131  correct 0.31  spent   0.0  cannot 0.00  n=192  (text interface)
+always_cannot    +0.000 ± 0.000  correct 0.00  spent   0.0  cannot 1.00  n=192  (text interface)
+eig              +0.492 ± 0.103  correct 0.82  spent  26.4  cannot 0.06  n=192  (simulator)
+hindsight        +0.758 ± 0.041  correct 0.89  spent  16.6  cannot 0.11  n=192  (simulator)
+{'level': 'hard', 'set': 'dev (test seeds 3000-3191)', 'reward_mode': 'strict0', 'wrong_penalty': 1.0, 'cost': 0.008, 'eig_stop_rule': {'p_stop': 0.8, 'rate_thr': 0.02, 'min_spend': 6, 'c_abst': -0.1}, 'frac_no_planet': 0.3125, 'headroom_fixed_to_teacher': 0.18020833333333347, 'headroom_compact_to_teacher': 0.35120833333333334}
+paired teacher - fixed: +0.180 [+0.090, +0.272]
+paired eig - fixed: +0.125 [+0.032, +0.218]
+paired compact_smart - compact: +0.145 [+0.067, +0.224]
+paired teacher - compact: +0.351 [+0.252, +0.452]
+paired eig - compact: +0.296 [+0.191, +0.402]
+EVENT_REFS_DONE

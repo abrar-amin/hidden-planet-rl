@@ -1,0 +1,13 @@
+measured (easy, scripted expert, n=150): 5.0 turns, prefill 10960 tok (of which 8672 is a repeat of the previous turn), sampled 306, final context 2594
+assumed LLM episode (+60 tok/turn of prose): prefill 11549, sampled 603, trained 3036
+
+model                                           $/episode (cache hits)   $/step steps@$150   (step = 8 systems x 8 rollouts = 64 episodes, + 40-episode eval every 5 steps)
+Qwen/Qwen3.5-9B                                   0.00839      0.00617     0.57        264
+Nemotron-3.5-Lightning-30B-A3B (50% promo)        0.00376      0.00240     0.26        577
+Nemotron-3.5-Lightning-30B-A3B (list)             0.00752      0.00479     0.52        288
+Qwen/Qwen3.6-35B-A3B                              0.00958      0.00624     0.66        227
+Qwen/Qwen3.5-4B                                   0.00666      0.00421     0.46        325
+
+Wall clock per step (UNMEASURED beyond the tiny live test; treat as a range):
+  optimistic  : service throughput 5000 tok/s, >= 2 s/turn, train 15 s, save+new sampler 5 s -> 32 s/step -> 150 steps in 80 min (9629 training episodes)
+  conservative: service throughput 590 tok/s, >= 6 s/turn, train 90 s, save+new sampler 30 s -> 194 s/step -> 25 steps in 80 min (1586 training episodes)

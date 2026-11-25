@@ -1,0 +1,10 @@
+results/hard_val.jsonl: 25/60 83s
+results/hard_val.jsonl: 50/60 165s
+DONE results/hard_val.jsonl
+results/hard_test.jsonl: 25/150 141s
+results/hard_test.jsonl: 50/150 327s
+results/hard_test.jsonl: 75/150 473s
+results/hard_test.jsonl: 100/150 649s
+results/hard_test.jsonl: 125/150 784s
+results/hard_test.jsonl: 150/150 882s
+DONE results/hard_test.jsonl

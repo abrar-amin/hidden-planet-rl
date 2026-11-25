@@ -1,0 +1,20 @@
+by purchase node (commit regardless of p): largest ES - realised
+   ((10, 0, 2), 'none'): +0.013 (lower -0.020)
+   ((10, 1, 3), 'none'): +0.011 (lower -0.017)
+   ((16, 2, 2), 'none'): +0.011 (lower -0.015)
+   ((16, 2, 1), 'none'): +0.011 (lower -0.016)
+   ((10, 4, 1), 'none'): +0.011 (lower -0.013)
+   (node, verdict) pairs with lower bound > 0: 0 of 64
+by displayed probability when committing: ES, realised, ES - realised
+   planet p in [0.00,0.30): ES -0.858 realised -0.830 diff -0.028 n=9406
+   planet p in [0.30,0.50): ES -0.241 realised -0.232 diff -0.009 n=7331
+   planet p in [0.50,0.70): ES +0.179 realised +0.363 diff -0.184 n=2306
+   planet p in [0.70,0.90): ES +0.610 realised +0.739 diff -0.129 n=1778
+   planet p in [0.90,0.99): ES +0.906 realised +0.955 diff -0.049 n=1543
+   planet p in [0.99,1.01): ES +0.997 realised +1.000 diff -0.003 n=2340
+   none   p in [0.00,0.30): ES -0.990 realised -0.989 diff -0.000 n=16353
+   none   p in [0.30,0.50): ES -0.179 realised -0.300 diff +0.121 n=460
+   none   p in [0.50,0.70): ES +0.235 realised +0.200 diff +0.034 n=933
+   none   p in [0.70,0.90): ES +0.645 realised +0.633 diff +0.013 n=2978
+   none   p in [0.90,0.99): ES +0.899 realised +0.885 diff +0.014 n=3644
+   none   p in [0.99,1.01): ES +0.986 realised +0.994 diff -0.008 n=336

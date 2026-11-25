@@ -1,0 +1,22 @@
+.venv
+__pycache__/
+*.pyc
+.pytest_cache/
+results/old/
+
+# secrets: never commit
+.env
+*.env
+env
+*.key
+runs/
+
+# audit_v3 generated data (regenerable with the scripts in audit_v3/)
+audit_v3/fake_event/
+audit_v3/refs_check/
+audit_v3/exploit_800.json
+audit_v3/preflight_committed_backup.json
+
+# OS / scratch
+.DS_Store
+sim_next/

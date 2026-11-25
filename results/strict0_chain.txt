@@ -1,0 +1,52 @@
+ "rv_buy_rate": 0.598, "reward": 0.36908799999999997, "turns": 4.414, "spent": 38.114, "correct": 0.754, "cannot": 0.166, <- teacher hard strict0 (train split)
+ "rv_buy_rate": 0.5933333333333334, "reward": 0.7983733333333334, "turns": 2.76, "spent": 24.37, "correct": 0.9966666666666667, "cannot": 0.0, <- teacher easy strict0 (train split)
+reference lines: level hard, reward strict0 (wrong -1.0), cost 0.008/unit
+  fit                  +0.382 ± 0.094  correct 0.78  cost  37.9  cannot 0.14  n=200  (text interface)
+  random               -0.499 ± 0.102  correct 0.08  cost  15.7  cannot 0.47  n=150  (text interface)
+  heuristic            +0.249 ± 0.113  correct 0.64  cost  35.5  cannot 0.25  n=150  (text interface)
+  compact              +0.275 ± 0.116  correct 0.62  cost  26.5  cannot 0.25  n=150  (text interface)
+  eig                  +0.480 ± 0.103  correct 0.85  cost  35.0  cannot 0.07  n=150  (simulator)
+  hindsight            +0.765 ± 0.046  correct 0.89  cost  16.1  cannot 0.11  n=150  (simulator)
+  always_none          -0.320 ± 0.152  correct 0.34  cost   0.0  cannot 0.00  n=150  (simulator)
+  always_cannot        +0.000 ± 0.000  correct 0.00  cost   0.0  cannot 1.00  n=150  (simulator)
+  maxspend_cannot      -0.480 ± 0.000  correct 0.00  cost  60.0  cannot 1.00  n=150  (simulator)
+  random_guess         -0.473 ± 0.104  correct 0.09  cost   0.0  cannot 0.35  n=150  (simulator)
+  fixed_design_bayes   +0.240 ± 0.111  correct 0.86  cost  60.0  cannot 0.00  n=150  (simulator)
+  proto_adaptive       +0.179 ± 0.114  correct 0.59  cost  40.1  cannot 0.31  n=150  (simulator)
+  {'level': 'hard', 'reward_mode': 'strict0', 'wrong_penalty': 1.0, 'cost': 0.008, 'eig_stop_rule': {'p_stop': 0.95, 'rate_thr': 0.02, 'min_spend': 6, 'c_abst': -0.1}, 'n_val': 60, 'n_test': 150, 'frac_no_planet': 0.33999999999999997, 'frac_undeterminable': 0.14666666666666667}
+reference lines: level easy, reward strict0 (wrong -1.0), cost 0.008/unit
+  fit                  +0.770 ± 0.048  correct 0.98  cost  23.7  cannot 0.00  n=150  (text interface)
+  random               -0.379 ± 0.111  correct 0.14  cost  15.7  cannot 0.47  n=150  (text interface)
+  heuristic            +0.348 ± 0.135  correct 0.81  cost  34.8  cannot 0.00  n=150  (text interface)
+  compact              +0.620 ± 0.069  correct 0.85  cost  27.5  cannot 0.15  n=150  (text interface)
+  eig                  +0.883 ± 0.027  correct 0.99  cost  13.0  cannot 0.00  n=150  (simulator)
+  hindsight            +0.932 ± 0.008  correct 1.00  cost   8.5  cannot 0.00  n=150  (simulator)
+  always_none          -0.187 ± 0.158  correct 0.41  cost   0.0  cannot 0.00  n=150  (simulator)
+  always_cannot        +0.000 ± 0.000  correct 0.00  cost   0.0  cannot 1.00  n=150  (simulator)
+  maxspend_cannot      -0.480 ± 0.000  correct 0.00  cost  60.0  cannot 1.00  n=150  (simulator)
+  random_guess         -0.353 ± 0.116  correct 0.15  cost   0.0  cannot 0.35  n=150  (simulator)
+  fixed_design_bayes   +0.520 ± 0.000  correct 1.00  cost  60.0  cannot 0.00  n=150  (simulator)
+  proto_adaptive       +0.550 ± 0.072  correct 0.87  cost  37.9  cannot 0.12  n=150  (simulator)
+  {'level': 'easy', 'reward_mode': 'strict0', 'wrong_penalty': 1.0, 'cost': 0.008, 'eig_stop_rule': {'p_stop': 0.9, 'rate_thr': 0.05, 'min_spend': 6, 'c_abst': -0.1}, 'n_val': 60, 'n_test': 150, 'frac_no_planet': 0.4066666666666666, 'frac_undeterminable': 0.0}
+hard level, RV availability ideal, cost 0.008/unit, 113 of 200 train systems where the first fit shows a perturber; 104 of them ambiguous (p_both_right < 0.6 after transits only)
+reward mode      |        GUESS now |      ABSTAIN now |   TEACHER (buys RVs) | teacher - guess | on AMBIGUOUS systems: guess / abstain / teacher
+partial          | +0.344 ± 0.103 | -0.263 ± 0.053 | +0.506 ± 0.078     | +0.162 ± 0.109 | +0.31 / -0.26 / +0.49
+strict (wrong -0.5) | +0.065 ± 0.138 | -0.263 ± 0.053 | +0.426 ± 0.104     | +0.361 ± 0.155 | +0.02 / -0.26 / +0.41
+strict (wrong -1.0) | -0.209 ± 0.184 | -0.263 ± 0.053 | +0.384 ± 0.108     | +0.594 ± 0.186 | -0.27 / -0.26 / +0.37
+strict0 (wrong -1.0) | -0.209 ± 0.184 | -0.112 ± 0.000 | +0.336 ± 0.118     | +0.545 ± 0.187 | -0.27 / -0.11 / +0.32
+guess spends 14.0 units; teacher spends 41.0 and buys RVs in 98% of these episodes
+strict0 (wrong -1, cannot 0), all                n=113: guess -0.21 | abstain now -0.11 | teacher +0.34 | teacher abstains 0.21 (precision 0.62); undeterminable 0.19; teacher buys RVs 0.98
+strict0 (wrong -1, cannot 0), RVs available      n=113: guess -0.21 | abstain now -0.11 | teacher +0.34 | teacher abstains 0.21 (precision 0.62); undeterminable 0.19; teacher buys RVs 0.98
+preflight setting: reward strict0 (wrong -1.0), cost 0.008/unit, RV availability ideal
+preflight: SFT data ['data/expert_fit_hard_strict0.jsonl'] (460 kept episodes: reward >= 0.2 or a correct abstention; 83 abstentions)
+
+PASS  G1 information sufficiency: 202/202 planet answers (100.0 %) reproducible from that episode's tool outputs; 258 non-planet answers need no numbers
+PASS  G2 text-only policy ceiling: hard, reward strict0 (wrong -1.0), cost 0.008, RV ideal: fit-following teacher (reads only tool JSON, n=200 held-out) +0.382 ± 0.094 (correct 0.78, spent 37.9, abstains 0.14); EIG +0.480, compact script +0.275, best degenerate policy +0.000. Criteria: teacher >= EIG - 0.2, >= compact, CI lower bound (+0.288) > degenerate
+PASS  G3 grader correctness: 53 checks, partial, strict (wrong -0.5 and -1.0) and strict0: max reward, each documented penalty, 'cannot' by the determinable label, cost term for 3 values of --cost-per-unit, reward_std_cost recomputation
+PASS  G4 render round-trip: 50 episodes, 392 tool calls: render -> tokenize (qwen3_5_disable_thinking) -> parse gives identical calls; every tool output appears verbatim; longest episode 4763 tokens (env limit 48,000; model context 64K)
+PASS  G5 SFT datum sanity: 50 episodes: loss weights are zero on every prompt token and positive only on the assistant turn being trained; assistant tokens per episode median 402 (min 161, max 753); no answer precedes the tool output it is copied from
+PASS  G6 RL signal (offline simulation): 30 hard systems, reward strict0 (wrong -1.0), cost 0.008, RV ideal; noisy fit-following policy (mean reward +0.08): groups with non-zero reward variance 1.00 (size 4), 1.00 (size 8); with non-zero ANSWER-SCORE variance (ignoring cost) 0.80 / 0.93; threshold 0.6. Simulated, not the live model: no per-episode live eval file exists.
+PASS  G7 pipeline dry run (fake service): reduced sizes (2 SFT steps, 3 RL steps x 12 episodes, 6-episode evals), 66 s: all stages completed; learning_curve.png written with reference lines random / scripted expert / EIG / hindsight
+
+ALL GATES PASS (7 run)
+CHAIN2DONE

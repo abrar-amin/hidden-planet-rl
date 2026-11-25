@@ -1,0 +1,12 @@
+preflight setting: reward strict (wrong -1.0), cost 0.008/unit, RV availability ideal
+preflight: SFT data ['data/expert_fit_hard_strict.jsonl'] (424 kept episodes: reward >= 0.2 or a correct abstention; 53 abstentions)
+
+PASS  G1 information sufficiency: 197/197 planet answers (100.0 %) reproducible from that episode's tool outputs; 227 non-planet answers need no numbers
+PASS  G2 text-only policy ceiling: fit-following agent (reads only tool JSON) on hard, n=200 held-out: reward +0.609 ± 0.066 (95 % CI lower bound +0.543), correct 0.81, spent 37.9, 4.4 turns (max 8); threshold +0.55 (defined for the partial reward) | under the ACTIVE reward (strict, wrong -1.0, cost 0.008, RV ideal): teacher +0.409 ± 0.090, random -0.58, always-none -0.32, always-cannot -0.17, EIG +0.52
+PASS  G3 grader correctness: 44 checks, partial and strict (wrong -0.5 and -1.0): max reward, each documented penalty, 'cannot' by the determinable label, cost term for 3 values of --cost-per-unit, reward_std_cost recomputation
+PASS  G4 render round-trip: 50 episodes, 360 tool calls: render -> tokenize (qwen3_5_disable_thinking) -> parse gives identical calls; every tool output appears verbatim; longest episode 4762 tokens (env limit 48,000; model context 64K)
+PASS  G5 SFT datum sanity: 50 episodes: loss weights are zero on every prompt token and positive only on the assistant turn being trained; assistant tokens per episode median 380 (min 161, max 751); no answer precedes the tool output it is copied from
+PASS  G6 RL signal (offline simulation): 30 hard systems, reward strict (wrong -1.0), cost 0.008, RV ideal; noisy fit-following policy (mean reward +0.01): groups with non-zero reward variance 1.00 (size 4), 1.00 (size 8); with non-zero ANSWER-SCORE variance (ignoring cost) 0.80 / 0.93; threshold 0.6. Simulated, not the live model: no per-episode live eval file exists.
+PASS  G7 pipeline dry run (fake service): reduced sizes (2 SFT steps, 3 RL steps x 12 episodes, 6-episode evals), 95 s: all stages completed; learning_curve.png written with reference lines random / scripted expert / EIG / hindsight
+
+ALL GATES PASS (7 run)

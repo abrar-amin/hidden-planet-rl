@@ -1,0 +1,128 @@
+{
+ "fixed": {
+  "label": "fixed-design demonstrator (text)",
+  "reward": 0.3102083333333332,
+  "ci": 0.09749888010984058,
+  "correct": 0.75,
+  "spent": 40.0,
+  "n": 192,
+  "f_cannot": 0.13020833333333334,
+  "via": "text interface"
+ },
+ "lite_teacher": {
+  "label": "lite teacher (text, tool level lite)",
+  "reward": 0.33208333333333334,
+  "ci": 0.09923809539839697,
+  "correct": 0.75,
+  "spent": 37.916666666666664,
+  "n": 192,
+  "f_cannot": 0.13541666666666666,
+  "via": "text interface"
+ },
+ "fit": {
+  "label": "fit-teacher script (text)",
+  "reward": 0.49041666666666667,
+  "ci": 0.07647505213169628,
+  "correct": 0.8385416666666666,
+  "spent": 38.307291666666664,
+  "n": 192,
+  "f_cannot": 0.11979166666666667,
+  "via": "text interface"
+ },
+ "compact": {
+  "label": "compact demonstrator (text)",
+  "reward": 0.1392083333333333,
+  "ci": 0.11521998611800202,
+  "correct": 0.5625,
+  "spent": 26.21875,
+  "n": 192,
+  "f_cannot": 0.22395833333333334,
+  "via": "text interface"
+ },
+ "compact_smart": {
+  "label": "compact + fit_model stopping (text)",
+  "reward": 0.2838333333333332,
+  "ci": 0.11638102263892872,
+  "correct": 0.7083333333333334,
+  "spent": 25.71875,
+  "n": 192,
+  "f_cannot": 0.07291666666666667,
+  "via": "text interface"
+ },
+ "eig_text": {
+  "label": "EIG through the text tools",
+  "reward": 0.4353749999999999,
+  "ci": 0.09381405880909109,
+  "correct": 0.8385416666666666,
+  "spent": 38.677083333333336,
+  "n": 192,
+  "f_cannot": 0.06770833333333333,
+  "via": "text interface"
+ },
+ "random": {
+  "label": "random policy",
+  "reward": -0.6174166666666667,
+  "ci": 0.0872034231196303,
+  "correct": 0.06770833333333333,
+  "spent": 15.328125,
+  "n": 192,
+  "f_cannot": 0.3697916666666667,
+  "via": "text interface"
+ },
+ "always_none": {
+  "label": "always 'none'",
+  "reward": -0.375,
+  "ci": 0.13147123588022722,
+  "correct": 0.3125,
+  "spent": 0.0,
+  "n": 192,
+  "f_cannot": 0.0,
+  "via": "text interface"
+ },
+ "always_cannot": {
+  "label": "always 'cannot'",
+  "reward": 0.0,
+  "ci": 0.0,
+  "correct": 0.0,
+  "spent": 0.0,
+  "n": 192,
+  "f_cannot": 1.0,
+  "via": "text interface"
+ },
+ "eig": {
+  "label": "Bayesian EIG scheduler (simulator)",
+  "reward": 0.491625,
+  "ci": 0.10263102855645909,
+  "correct": 0.8229166666666666,
+  "spent": 26.4375,
+  "n": 192,
+  "f_cannot": 0.057291666666666664,
+  "via": "simulator"
+ },
+ "hindsight": {
+  "label": "hindsight ceiling (optimistic)",
+  "reward": 0.7579999999999999,
+  "ci": 0.040674095233165904,
+  "correct": 0.890625,
+  "spent": 16.578125,
+  "n": 192,
+  "f_cannot": 0.109375,
+  "via": "simulator"
+ },
+ "_meta": {
+  "level": "hard",
+  "set": "dev (test seeds 3000-3191)",
+  "reward_mode": "strict0",
+  "wrong_penalty": 1.0,
+  "cost": 0.008,
+  "eig_stop_rule": {
+   "p_stop": 0.8,
+   "rate_thr": 0.02,
+   "min_spend": 6,
+   "c_abst": -0.1
+  },
+  "frac_no_planet": 0.3125,
+  "headroom_fixed_to_teacher": 0.18020833333333347,
+  "headroom_compact_to_teacher": 0.35120833333333334
+ }
+}

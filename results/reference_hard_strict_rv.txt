@@ -1,0 +1,13 @@
+reference lines: level hard, reward strict (wrong -1.0), cost 0.008/unit
+  fit                  +0.364 ± 0.096  correct 0.71  cost  37.2  cannot 0.18  n=200  (text interface)
+  random               -0.573 ± 0.100  correct 0.08  cost  15.1  cannot 0.47  n=150  (text interface)
+  compact              +0.206 ± 0.123  correct 0.56  cost  25.9  cannot 0.30  n=150  (text interface)
+  eig                  +0.512 ± 0.096  correct 0.80  cost  30.9  cannot 0.12  n=150  (simulator)
+  hindsight            +0.789 ± 0.033  correct 0.87  cost  15.8  cannot 0.13  n=150  (simulator)
+  always_none          -0.320 ± 0.152  correct 0.34  cost   0.0  cannot 0.00  n=150  (simulator)
+  always_cannot        -0.160 ± 0.045  correct 0.00  cost   0.0  cannot 1.00  n=150  (simulator)
+  maxspend_cannot      -0.632 ± 0.047  correct 0.00  cost  57.8  cannot 1.00  n=150  (simulator)
+  random_guess         -0.523 ± 0.103  correct 0.09  cost   0.0  cannot 0.35  n=150  (simulator)
+  fixed_design_bayes   +0.170 ± 0.121  correct 0.81  cost  57.8  cannot 0.01  n=150  (simulator)
+  proto_adaptive       +0.128 ± 0.121  correct 0.55  cost  40.0  cannot 0.34  n=150  (simulator)
+  {'level': 'hard', 'reward_mode': 'strict', 'wrong_penalty': 1.0, 'cost': 0.008, 'eig_stop_rule': {'p_stop': 0.95, 'rate_thr': 0.03, 'min_spend': 6, 'c_abst': 0.0}, 'n_val': 60, 'n_test': 150, 'frac_no_planet': 0.33999999999999997, 'frac_undeterminable': 0.15333333333333332, 'rv_availability': 'realistic', 'frac_rv_unavailable': 0.07333333333333336}

@@ -1,0 +1,158 @@
+{
+ "fit": {
+  "label": "text-only fit-following expert (SFT teacher)",
+  "reward": 0.40876000000000007,
+  "ci": 0.09027543446563407,
+  "correct": 0.765,
+  "spent": 37.905,
+  "n": 200,
+  "f_cannot": 0.15,
+  "rv_buy_rate": 0.62,
+  "via": "text interface"
+ },
+ "random": {
+  "label": "random policy",
+  "reward": -0.5781066666666668,
+  "ci": 0.09897087122717567,
+  "correct": 0.08,
+  "spent": 15.68,
+  "n": 150,
+  "f_cannot": 0.4666666666666667,
+  "rv_buy_rate": 0.84,
+  "via": "text interface"
+ },
+ "heuristic": {
+  "label": "prototype-style script",
+  "reward": 0.27122666666666667,
+  "ci": 0.11389829064640579,
+  "correct": 0.64,
+  "spent": 35.513333333333335,
+  "n": 150,
+  "f_cannot": 0.25333333333333335,
+  "rv_buy_rate": 0.5333333333333333,
+  "via": "text interface"
+ },
+ "compact": {
+  "label": "compact script",
+  "reward": 0.27082666666666666,
+  "ci": 0.1202971232718782,
+  "correct": 0.62,
+  "spent": 26.48,
+  "n": 150,
+  "f_cannot": 0.24666666666666667,
+  "rv_buy_rate": 0.5066666666666667,
+  "via": "text interface"
+ },
+ "eig": {
+  "label": "Bayesian EIG scheduler",
+  "reward": 0.5179999999999999,
+  "ci": 0.09121888119476722,
+  "correct": 0.8266666666666667,
+  "spent": 35.0,
+  "n": 150,
+  "f_cannot": 0.10666666666666667,
+  "abst_prec": 0.9375,
+  "abst_rec": 0.6521739130434783,
+  "via": "simulator"
+ },
+ "hindsight": {
+  "label": "hindsight ceiling (optimistic)",
+  "reward": 0.7759466666666667,
+  "ci": 0.03579441360942841,
+  "correct": 0.8533333333333334,
+  "spent": 15.84,
+  "n": 150,
+  "f_cannot": 0.14666666666666667,
+  "abst_prec": 0.9090909090909091,
+  "abst_rec": 0.8,
+  "via": "simulator"
+ },
+ "always_none": {
+  "label": "always 'none'",
+  "reward": -0.32,
+  "ci": 0.15212631981747293,
+  "correct": 0.34,
+  "spent": 0.0,
+  "n": 150,
+  "f_cannot": 0.0,
+  "abst_prec": NaN,
+  "abst_rec": 0.0,
+  "via": "simulator"
+ },
+ "always_cannot": {
+  "label": "always 'cannot'",
+  "reward": -0.17400000000000002,
+  "ci": 0.04318213948462719,
+  "correct": 0.0,
+  "spent": 0.0,
+  "n": 150,
+  "f_cannot": 1.0,
+  "abst_prec": 0.18,
+  "abst_rec": 1.0,
+  "via": "simulator"
+ },
+ "maxspend_cannot": {
+  "label": "max spend then 'cannot'",
+  "reward": -0.6586666666666668,
+  "ci": 0.04254683261125103,
+  "correct": 0.0,
+  "spent": 60.0,
+  "n": 150,
+  "f_cannot": 1.0,
+  "abst_prec": 0.17333333333333334,
+  "abst_rec": 1.0,
+  "via": "simulator"
+ },
+ "random_guess": {
+  "label": "random answer, no data",
+  "reward": -0.5279999999999999,
+  "ci": 0.10216256113001619,
+  "correct": 0.08666666666666667,
+  "spent": 0.0,
+  "n": 150,
+  "f_cannot": 0.35333333333333333,
+  "abst_prec": 0.20754716981132076,
+  "abst_rec": 0.4074074074074074,
+  "via": "simulator"
+ },
+ "fixed_design_bayes": {
+  "label": "fixed 30T+10RV + Bayes answer",
+  "reward": 0.24,
+  "ci": 0.11143103805318666,
+  "correct": 0.86,
+  "spent": 60.0,
+  "n": 150,
+  "f_cannot": 0.0,
+  "abst_prec": NaN,
+  "abst_rec": 0.0,
+  "via": "simulator"
+ },
+ "proto_adaptive": {
+  "label": "prototype adaptive script",
+  "reward": 0.18320000000000003,
+  "ci": 0.11770838876786405,
+  "correct": 0.5933333333333334,
+  "spent": 40.1,
+  "n": 150,
+  "f_cannot": 0.31333333333333335,
+  "abst_prec": 0.44680851063829785,
+  "abst_rec": 0.7777777777777778,
+  "via": "simulator"
+ },
+ "_meta": {
+  "level": "hard",
+  "reward_mode": "strict",
+  "wrong_penalty": 1.0,
+  "cost": 0.008,
+  "eig_stop_rule": {
+   "p_stop": 0.95,
+   "rate_thr": 0.02,
+   "min_spend": 6,
+   "c_abst": 0.2
+  },
+  "n_val": 60,
+  "n_test": 150,
+  "frac_no_planet": 0.33999999999999997,
+  "frac_undeterminable": 0.14666666666666667
+ }
+}

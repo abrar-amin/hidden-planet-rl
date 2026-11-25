@@ -1,0 +1,43 @@
+n systems 192
+== es
+ fixed: mean +0.275 per-episode SD 0.372; within-system SD across plays 0.200; between-system SD of means 0.335
+ teacher: mean +0.387 per-episode SD 0.400; within-system SD across plays 0.188; between-system SD of means 0.370
+ eig: mean +0.438 per-episode SD 0.378; within-system SD across plays 0.162; between-system SD of means 0.355
+ teacher-fixed: paired SE same policy-seed [0.017  0.0218 0.0213], different policy-seed [0.0211 0.0235 0.0189]
+ eig-fixed: paired SE same policy-seed [0.0202 0.0246 0.0249], different policy-seed [0.0245 0.0242 0.0191]
+ fixed play0-play1 (true diff 0): mean +0.035 SE 0.0194  SD 0.268
+ teacher play0-play1 (true diff 0): mean +0.012 SE 0.0195  SD 0.270
+ teacher(2 plays) - fixed(2 plays, partly different rng): SE 0.0162
+ [D2-like, null, CORRELATED plays] fixed(2 plays) - fixed(avg3): SE 0.0061
+== reward
+ fixed: mean +0.314 per-episode SD 0.671; within-system SD across plays 0.486; between-system SD of means 0.543
+ teacher: mean +0.460 per-episode SD 0.586; within-system SD across plays 0.436; between-system SD of means 0.467
+ eig: mean +0.451 per-episode SD 0.642; within-system SD across plays 0.459; between-system SD of means 0.523
+ teacher-fixed: paired SE same policy-seed [0.0462 0.0491 0.0454], different policy-seed [0.0465 0.0501 0.0538]
+ eig-fixed: paired SE same policy-seed [0.0475 0.0482 0.0528], different policy-seed [0.0479 0.048  0.0547]
+ fixed play0-play1 (true diff 0): mean -0.010 SE 0.0506  SD 0.701
+ teacher play0-play1 (true diff 0): mean +0.069 SE 0.0467  SD 0.647
+ teacher(2 plays) - fixed(2 plays, partly different rng): SE 0.0342
+ [D2-like, null, CORRELATED plays] fixed(2 plays) - fixed(avg3): SE 0.0141
+== futility proxy (48 systems, single sample at step 0 and step 15)
+ fixed: SD of per-system diff 0.268 -> SE(48) 0.039; P(continue | true delta): +0.00: 0.50, +0.02: 0.70, +0.05: 0.90, +0.10: 1.00
+ teacher: SD of per-system diff 0.270 -> SE(48) 0.039; P(continue | true delta): +0.00: 0.50, +0.02: 0.70, +0.05: 0.90, +0.10: 0.99
+== ES minus realised (bias) by policy and differential vs fixed, dev192 avg3
+ fixed          ES-realised -0.039 [-0.094,+0.019] | differential vs fixed +0.000 [+0.000,+0.000]
+ teacher        ES-realised -0.073 [-0.113,-0.030] | differential vs fixed -0.034 [-0.093,+0.022]
+ eig            ES-realised -0.014 [-0.060,+0.035] | differential vs fixed +0.025 [-0.028,+0.076]
+ compact        ES-realised +0.017 [-0.048,+0.087] | differential vs fixed +0.056 [+0.003,+0.110]
+ compact_smart  ES-realised -0.005 [-0.077,+0.070] | differential vs fixed +0.034 [-0.016,+0.085]
+ random         ES-realised +0.009 [-0.024,+0.043] | differential vs fixed +0.048 [-0.012,+0.104]
+ fixed: planet commits 0.51 (p<0.5 0.000, 0.5-0.7 0.125, 0.7-0.9 0.123, >=0.9 0.264); none commits 0.34 (0.5-0.7 0.050); cannot 0.15
+     planet p[0.5,0.7): n=72 mean 2p-1 +0.188 realised score +0.250
+     planet p[0.7,0.9): n=71 mean 2p-1 +0.602 realised score +0.690
+     planet p[0.9,2): n=152 mean 2p-1 +0.958 realised score +0.921
+ teacher: planet commits 0.56 (p<0.5 0.000, 0.5-0.7 0.059, 0.7-0.9 0.194, >=0.9 0.307); none commits 0.32 (0.5-0.7 0.005); cannot 0.12
+     planet p[0.5,0.7): n=34 mean 2p-1 +0.210 realised score +0.647
+     planet p[0.7,0.9): n=112 mean 2p-1 +0.674 realised score +0.839
+     planet p[0.9,2): n=177 mean 2p-1 +0.926 realised score +0.910
+ eig: planet commits 0.59 (p<0.5 0.000, 0.5-0.7 0.061, 0.7-0.9 0.120, >=0.9 0.411); none commits 0.34 (0.5-0.7 0.005); cannot 0.07
+     planet p[0.5,0.7): n=35 mean 2p-1 +0.193 realised score -0.029
+     planet p[0.7,0.9): n=69 mean 2p-1 +0.648 realised score +0.797
+     planet p[0.9,2): n=237 mean 2p-1 +0.914 realised score +0.932

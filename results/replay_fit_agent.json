@@ -1,0 +1,67 @@
+{
+ "142.01": {
+  "desc": "Kepler-88 b: real 2:1 perturber (Kepler-88 c)",
+  "reward": -0.5558333333333334,
+  "verdicts": [
+   "planet",
+   "planet",
+   "planet",
+   "planet",
+   "planet",
+   "planet"
+  ],
+  "spent": 11.166666666666666
+ },
+ "1.01": {
+  "desc": "TrES-2 b: quiet",
+  "reward": 0.9491666666666667,
+  "verdicts": [
+   "none",
+   "none",
+   "none",
+   "none",
+   "none",
+   "none"
+  ],
+  "spent": 10.166666666666666
+ },
+ "2.01": {
+  "desc": "HAT-P-7 b: quiet",
+  "reward": 0.9066666666666666,
+  "verdicts": [
+   "none",
+   "none",
+   "none",
+   "none",
+   "none",
+   "none"
+  ],
+  "spent": 18.666666666666668
+ },
+ "17.01": {
+  "desc": "Kepler-6 b: quiet",
+  "reward": 0.3941666666666667,
+  "verdicts": [
+   "none",
+   "none",
+   "planet",
+   "none",
+   "planet",
+   "none"
+  ],
+  "spent": 21.166666666666668
+ },
+ "203.01": {
+  "desc": "Kepler-17 b: starspot timing noise, no perturber",
+  "reward": -0.023333333333333334,
+  "verdicts": [
+   "cannot_determine",
+   "cannot_determine",
+   "planet",
+   "planet",
+   "planet",
+   "none"
+  ],
+  "spent": 14.666666666666666
+ }
+}

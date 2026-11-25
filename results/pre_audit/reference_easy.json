@@ -1,0 +1,147 @@
+{
+ "fit": {
+  "label": "text-only fit-following expert (SFT teacher)",
+  "reward": 0.8664000000000003,
+  "ci": 0.019433132538285203,
+  "correct": 0.98,
+  "spent": 23.72,
+  "n": 150,
+  "via": "text interface"
+ },
+ "random": {
+  "label": "random policy",
+  "reward": -0.22006666666666666,
+  "ci": 0.08021543863824114,
+  "correct": 0.14,
+  "spent": 15.68,
+  "n": 150,
+  "via": "text interface"
+ },
+ "heuristic": {
+  "label": "prototype-style script",
+  "reward": 0.48083333333333333,
+  "ci": 0.12481871339674748,
+  "correct": 0.8133333333333334,
+  "spent": 34.833333333333336,
+  "n": 150,
+  "via": "text interface"
+ },
+ "compact": {
+  "label": "compact script (SFT expert)",
+  "reward": 0.6617333333333333,
+  "ci": 0.08038673134997765,
+  "correct": 0.8466666666666667,
+  "spent": 27.52,
+  "n": 150,
+  "via": "text interface"
+ },
+ "eig": {
+  "label": "Bayesian EIG scheduler",
+  "reward": 0.9300999999999999,
+  "ci": 0.01109265358924575,
+  "correct": 0.9933333333333333,
+  "spent": 12.98,
+  "n": 150,
+  "f_cannot": 0.0,
+  "abst_prec": NaN,
+  "abst_rec": NaN,
+  "via": "simulator"
+ },
+ "hindsight": {
+  "label": "hindsight ceiling (optimistic)",
+  "reward": 0.9709,
+  "ci": 0.005465709766198909,
+  "correct": 1.0,
+  "spent": 5.82,
+  "n": 150,
+  "f_cannot": 0.0,
+  "abst_prec": NaN,
+  "abst_rec": NaN,
+  "via": "simulator"
+ },
+ "always_none": {
+  "label": "always 'none'",
+  "reward": 0.11,
+  "ci": 0.11831038237272842,
+  "correct": 0.4066666666666667,
+  "spent": 0.0,
+  "n": 150,
+  "f_cannot": 0.0,
+  "abst_prec": NaN,
+  "abst_rec": NaN,
+  "via": "simulator"
+ },
+ "always_cannot": {
+  "label": "always 'cannot'",
+  "reward": -0.3,
+  "ci": 0.0,
+  "correct": 0.0,
+  "spent": 0.0,
+  "n": 150,
+  "f_cannot": 1.0,
+  "abst_prec": 0.0,
+  "abst_rec": NaN,
+  "via": "simulator"
+ },
+ "maxspend_cannot": {
+  "label": "max spend then 'cannot'",
+  "reward": -0.6,
+  "ci": 0.0,
+  "correct": 0.0,
+  "spent": 60.0,
+  "n": 150,
+  "f_cannot": 1.0,
+  "abst_prec": 0.0,
+  "abst_rec": NaN,
+  "via": "simulator"
+ },
+ "random_guess": {
+  "label": "random answer, no data",
+  "reward": -0.16933333333333334,
+  "ci": 0.08262587963997052,
+  "correct": 0.14666666666666667,
+  "spent": 0.0,
+  "n": 150,
+  "f_cannot": 0.35333333333333333,
+  "abst_prec": 0.0,
+  "abst_rec": NaN,
+  "via": "simulator"
+ },
+ "fixed_design_bayes": {
+  "label": "fixed 30T+10RV + Bayes answer",
+  "reward": 0.7000000000000002,
+  "ci": 3.5653581514190497e-17,
+  "correct": 1.0,
+  "spent": 60.0,
+  "n": 150,
+  "f_cannot": 0.0,
+  "abst_prec": NaN,
+  "abst_rec": NaN,
+  "via": "simulator"
+ },
+ "proto_adaptive": {
+  "label": "prototype adaptive script",
+  "reward": 0.6396,
+  "ci": 0.07654356373376456,
+  "correct": 0.8666666666666667,
+  "spent": 37.88,
+  "n": 150,
+  "f_cannot": 0.12,
+  "abst_prec": 0.0,
+  "abst_rec": NaN,
+  "via": "simulator"
+ },
+ "_meta": {
+  "level": "easy",
+  "eig_stop_rule": {
+   "p_stop": 0.9,
+   "rate_thr": 0.05,
+   "min_spend": 6,
+   "c_abst": -0.1
+  },
+  "n_val": 60,
+  "n_test": 150,
+  "frac_no_planet": 0.4066666666666666,
+  "frac_undeterminable": 0.0
+ }
+}

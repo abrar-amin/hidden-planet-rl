@@ -1,0 +1,20 @@
+step 0                 n= 48 (48 systems) | decision accuracy 0.861 [0.787, 0.925] | fully correct 0.67 | cannot 0.23 | bought RVs 0.69 | spent 37.0
+                       errors per episode: low-confidence commit 0.02, blind commit 0.04, wrong option 0.00, premature abstain 0.06, abstain when decided 0.10, overspend 0.08, futile purchase 0.08, no tool call 0.00
+                       answers matching the fit's top option 1.00 (n=33) | calibration of fit confidence at submission: Brier 0.035, ECE 0.097 (n=33)
+step 5                 n= 48 (48 systems) | decision accuracy 0.862 [0.791, 0.923] | fully correct 0.65 | cannot 0.10 | bought RVs 0.62 | spent 35.9
+                       errors per episode: low-confidence commit 0.10, blind commit 0.00, wrong option 0.00, premature abstain 0.04, abstain when decided 0.02, overspend 0.15, futile purchase 0.12, no tool call 0.00
+                       answers matching the fit's top option 0.95 (n=40) | calibration of fit confidence at submission: Brier 0.112, ECE 0.059 (n=40)
+step 10                n= 48 (48 systems) | decision accuracy 0.907 [0.848, 0.956] | fully correct 0.71 | cannot 0.06 | bought RVs 0.65 | spent 37.5
+                       errors per episode: low-confidence commit 0.10, blind commit 0.02, wrong option 0.00, premature abstain 0.02, abstain when decided 0.02, overspend 0.04, futile purchase 0.04, no tool call 0.02
+                       answers matching the fit's top option 0.95 (n=42) | calibration of fit confidence at submission: Brier 0.095, ECE 0.064 (n=42)
+
+paired decision accuracy step 5 - step 0: +0.001, paired SE 0.047, 95 % CI [-0.091, +0.090] over 48 systems
+paired decision accuracy step 10 - step 0: +0.046, paired SE 0.047, 95 % CI [-0.042, +0.137] over 48 systems
+
+references on the same systems (test seeds 0..47), same judge:
+teacher                n= 48 (48 systems) | decision accuracy 0.971 [0.950, 0.988] | fully correct 0.77 | cannot 0.19 | bought RVs 0.67 | spent 40.5
+                       errors per episode: low-confidence commit 0.00, blind commit 0.00, wrong option 0.00, premature abstain 0.15, abstain when decided 0.00, overspend 0.00, futile purchase 0.00, no tool call 0.00
+                       answers matching the fit's top option 1.00 (n=39) | calibration of fit confidence at submission: Brier 0.050, ECE 0.060 (n=39)
+eig                    n= 48 (48 systems) | decision accuracy 0.976 [0.958, 0.990] | fully correct 0.85 | cannot 0.00 | bought RVs 0.96 | spent 42.9
+                       errors per episode: low-confidence commit 0.12, blind commit 0.00, wrong option 0.00, premature abstain 0.00, abstain when decided 0.00, overspend 0.06, futile purchase 0.00, no tool call 0.00
+                       answers matching the fit's top option 1.00 (n=48) | calibration of fit confidence at submission: Brier 0.065, ECE 0.088 (n=48)

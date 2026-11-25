@@ -1,0 +1,44 @@
+=== event.sh sft fixed ===
+=== event.sh sft fit ===
+=== event.sh sft compact ===
+=== event.sh sft lite ===
+gates: fixed=PASS fit=FAIL compact=FAIL lite=FAIL 
+=== event.sh rl fixed 0 (no FORCE) ===
+exit code 0 (2 = refused because the gate failed; 0 = gate had passed and RL ran)
+=== FORCE=1 event.sh rl fixed 0 ===
+=== FORCE=1 event.sh rl fixed 1 ===
+=== FORCE=1 event.sh control fixed ===
+=== FORCE=1 event.sh rl fit 0 ===
+=== FORCE=1 event.sh rl compact 0 ===
+=== FORCE=1 event.sh rl lite 0 ===
+=== event.sh final ===
+=== event.sh sealed (dry: seeds 9000+, arm forced) ===
+EVENT_DIR=runs/event_dry_232248
+GATE (no-answer rate <= 0.05 in both decodings): PASS
+GATE (no-answer rate <= 0.05 in both decodings): FAIL - RL will not start from this init (inspect final_dev_*_traces.jsonl)
+GATE (no-answer rate <= 0.05 in both decodings): FAIL - RL will not start from this init (inspect final_dev_*_traces.jsonl)
+GATE (no-answer rate <= 0.05 in both decodings): FAIL - RL will not start from this init (inspect final_dev_*_traces.jsonl)
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, sampled): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, greedy): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, sampled): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, greedy): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, sampled): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, greedy): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, sampled): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, greedy): NOT MET
+[23:28:44] sealed evaluation for the pre-registered best arm: rl_fixed_s0
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (sealed, sampled): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (sealed, greedy): NOT MET
+     136
+sealed lock untouched
+DRY_EVENT_DONE

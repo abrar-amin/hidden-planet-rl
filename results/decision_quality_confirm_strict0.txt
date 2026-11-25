@@ -1,0 +1,12 @@
+SFT (A)                n= 96 (96 systems) | decision accuracy, repeats counted once 0.789 [0.733, 0.844] (per-turn as first shipped 0.591) | answered 0.54 | final decision right given answered 0.92 (n=52) | episodes with no judged error 0.43
+                       fully correct 0.44 | cannot 0.05 | bought RVs 0.48 | spent 41.5 | repeated identical requests per episode 3.89
+                       errors per episode: low-confidence commit 0.00, blind commit 0.00, wrong option 0.00, premature abstain 0.00, abstain when decided 0.04, overspend 0.09, futile purchase 0.38, wasteful purchase 0.03, bulk RV request 0.22, mixed turn 0.00, no tool call 0.00
+                       truth check, commits by fit confidence: [0.0,0.5): nan right (n=0); [0.5,0.8): nan right (n=0); [0.8,1.0): 0.89 right (n=47) | Brier 0.087, ECE 0.038 | answers matching the fit's top option 1.00
+                       request diversity: 7 distinct first requests (most common used in 57% of episodes); 27 distinct RV schedules over 47 RV-buying episodes (most common 17%)
+RL step 10 (B)         n= 96 (96 systems) | decision accuracy, repeats counted once 0.794 [0.750, 0.837] (per-turn as first shipped 0.776) | answered 0.95 | final decision right given answered 0.91 (n=91) | episodes with no judged error 0.49
+                       fully correct 0.73 | cannot 0.01 | bought RVs 0.50 | spent 35.2 | repeated identical requests per episode 0.50
+                       errors per episode: low-confidence commit 0.08, blind commit 0.00, wrong option 0.00, premature abstain 0.00, abstain when decided 0.00, overspend 0.00, futile purchase 0.04, wasteful purchase 0.02, bulk RV request 0.46, mixed turn 0.00, no tool call 0.01
+                       truth check, commits by fit confidence: [0.0,0.5): 0.12 right (n=8); [0.5,0.8): 0.76 right (n=33); [0.8,1.0): 0.90 right (n=49) | Brier 0.135, ECE 0.072 | answers matching the fit's top option 0.99
+                       request diversity: 1 distinct first requests (most common used in 100% of episodes); 28 distinct RV schedules over 49 RV-buying episodes (most common 37%)
+
+paired decision accuracy (repeats counted once) RL step 10 (B) - SFT (A): +0.005, paired SE 0.031, 95 % CI [-0.055, +0.066] over 96 systems   (per-turn as first shipped: +0.186 [+0.112, +0.258])

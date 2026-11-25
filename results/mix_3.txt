@@ -1,0 +1,1 @@
+level 3: none frac 0.28 | none: median q 0.89, min 0.68 | planets determinable 0.52 (ref only 0.48) | overall undeterminable 0.35

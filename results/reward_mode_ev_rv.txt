@@ -1,0 +1,10 @@
+hard level, RV availability realistic, cost 0.008/unit, 113 of 200 train systems where the first fit shows a perturber; 104 of them ambiguous (p_both_right < 0.6 after transits only)
+reward mode      |        GUESS now |      ABSTAIN now |   TEACHER (buys RVs) | teacher - guess | on AMBIGUOUS systems: guess / abstain / teacher
+partial          | +0.344 ± 0.103 | -0.189 ± 0.060 | +0.462 ± 0.083     | +0.118 ± 0.095 | +0.31 / -0.18 / +0.44
+strict (wrong -0.5) | +0.065 ± 0.138 | -0.189 ± 0.060 | +0.429 ± 0.087     | +0.364 ± 0.139 | +0.02 / -0.18 / +0.42
+strict (wrong -0.75) | -0.072 ± 0.161 | -0.189 ± 0.060 | +0.414 ± 0.087     | +0.486 ± 0.160 | -0.12 / -0.18 / +0.40
+strict (wrong -1.0) | -0.209 ± 0.184 | -0.189 ± 0.060 | +0.384 ± 0.093     | +0.593 ± 0.185 | -0.27 / -0.18 / +0.37
+guess spends 14.0 units; teacher spends 39.1 and buys RVs in 86% of these episodes
+strict (wrong -1.0), all                n=113: guess -0.21 | abstain now -0.19 | teacher +0.38 | teacher abstains 0.34 (precision 0.87); undeterminable 0.32; teacher buys RVs 0.86
+strict (wrong -1.0), RVs available      n= 99: guess -0.12 | abstain now -0.26 | teacher +0.42 | teacher abstains 0.25 (precision 0.80); undeterminable 0.22; teacher buys RVs 0.98
+strict (wrong -1.0), RVs NOT available  n= 14: guess -0.83 | abstain now +0.29 | teacher +0.12 | teacher abstains 0.93 (precision 1.00); undeterminable 1.00; teacher buys RVs 0.00

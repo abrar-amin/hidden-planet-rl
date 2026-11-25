@@ -1,0 +1,15 @@
+20 level-5 (2:1, eccentric) systems with a perturber; wall time per system: TTVFast 7.9 ms, REBOUND IAS15 279 ms
+TTVFast vs REBOUND   max |dt transit|: median 34.717 s, worst 427.746 s   (timing noise 55-172 s)
+TTVFast vs REBOUND   max |dRV|: median 0.0742 m/s, worst 0.9981 m/s   (RV noise 1.0-4.8 m/s); |dP2| worst 5.71e-03 d
+TTVFast vs analytic model (same osculating elements; includes the mean-vs-osculating period shift): rms dt median 2.37 min (TTV amp median 13.4 min); rms dRV median 0.08 m/s
+mean P2 differs from osculating P2 by median 0.013%, max 0.049% (grading tolerance 0.5%)
+fallbacks to analytic: 0
+single-planet check (perturber 1e-4 Me): rms(TTVFast RV - Kepler RV) = 0.0020 m/s, K1 = 1.21 m/s
+
+Same Jacobi elements, 20 systems x 150 orbits, inner planet ~massless (element conventions coincide):
+  TTVFast vs REBOUND IAS15 inner transit times: median max|dt| = 0.037 s, worst 1.613 s (TTV amplitude median 830 s)
+  RVs: median max|dRV| = 0.0004 m/s, worst 0.0018 m/s
+
+Same Jacobi elements, 20 systems x 150 orbits, full inner mass (Jacobi-element conventions differ between the codes):
+  TTVFast vs REBOUND IAS15 inner transit times: median max|dt| = 63.477 s, worst 709.358 s (TTV amplitude median 829 s)
+  RVs: median max|dRV| = 0.0689 m/s, worst 0.9128 m/s

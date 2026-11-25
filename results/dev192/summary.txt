@@ -1,0 +1,26 @@
+dev set: test seeds 3000-3191 (n=192), strict0, cost 0.008
+policy         reward  correct  spent  abstains  post_lowconf_commit  lowconf_commit(on-screen)  rv_buy
+teacher        +0.490  0.84     38.3   0.120     0.000                0.000                      0.67
+eig            +0.435  0.84     38.7   0.068     0.000                0.000                      0.82
+compact        +0.139  0.56     26.2   0.224     0.130                0.776                      0.51
+compact_smart  +0.284  0.71     25.7   0.073     0.104                0.104                      0.51
+fixed          +0.310  0.75     40.0   0.130     0.000                0.000                      1.00
+lite_teacher   +0.332  0.75     37.9   0.135     0.062                0.865                      0.62
+random         -0.617  0.07     15.3   0.370     0.547                0.630                      0.84
+
+paired teacher       - fixed       : +0.180 [+0.090, +0.272]  paired SE 0.046  -> smallest true effect with a CI above 0 at 80 % power ~ 0.13 (1 sample per system)
+paired eig           - fixed       : +0.125 [+0.032, +0.218]  paired SE 0.047  -> smallest true effect with a CI above 0 at 80 % power ~ 0.13 (1 sample per system)
+paired compact_smart - fixed       : -0.026 [-0.112, +0.057]  paired SE 0.043  -> smallest true effect with a CI above 0 at 80 % power ~ 0.12 (1 sample per system)
+paired fixed         - compact     : +0.171 [+0.072, +0.272]  paired SE 0.051  -> smallest true effect with a CI above 0 at 80 % power ~ 0.14 (1 sample per system)
+paired teacher       - compact     : +0.351 [+0.252, +0.452]  paired SE 0.052  -> smallest true effect with a CI above 0 at 80 % power ~ 0.14 (1 sample per system)
+paired compact_smart - compact     : +0.145 [+0.067, +0.224]  paired SE 0.040  -> smallest true effect with a CI above 0 at 80 % power ~ 0.11 (1 sample per system)
+paired teacher       - lite_teacher: +0.158 [+0.083, +0.237]  paired SE 0.039  -> smallest true effect with a CI above 0 at 80 % power ~ 0.11 (1 sample per system)
+
+posterior-based guard (commits with posterior <= 0.5 must not exceed the init's rate + 0.04), scripted stand-ins:
+   init fixed    (0.000) -> teacher       (0.000): PASS
+   init fixed    (0.000) -> eig           (0.000): PASS
+   init fixed    (0.000) -> compact_smart (0.104): FAIL
+   init compact  (0.130) -> compact_smart (0.104): PASS
+   init compact  (0.130) -> teacher       (0.000): PASS
+   init compact  (0.130) -> eig           (0.000): PASS
+   init compact  (0.130) -> fixed         (0.000): PASS

@@ -1,0 +1,16 @@
+true effect (ES = realised) | P(single CI>0) | P(one seed meets ES+sanity) | P(both seeds) | x P(both pass futility)
+  +0.00: 0.025  0.001  0.000  0.000
+  +0.03: 0.548  0.236  0.087  0.053
+  +0.04: 0.791  0.524  0.321  0.231
+  +0.05: 0.934  0.780  0.638  0.517
+  +0.06: 0.985  0.915  0.849  0.747
+  +0.08: 1.000  0.986  0.974  0.935
+  +0.10: 1.000  0.998  0.996  0.986
+same, LLM sampling noise 1.5x the scripts':
+  +0.05: 0.638  0.325  0.145  0.094
+  +0.08: 0.958  0.838  0.723  0.607
+  +0.10: 0.996  0.956  0.920  0.843
+FALSE-POSITIVE scenario: ES effect is metric bias only (true realised effect 0):
+  ES bias +0.03, realised 0: 0.547  0.114  0.026  0.016
+  ES bias +0.05, realised 0: 0.935  0.300  0.130  0.105
+  ES bias +0.06, realised 0: 0.986  0.333  0.158  0.139

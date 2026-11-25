@@ -1,0 +1,13 @@
+fit              +0.507 ± 0.101  correct 0.83  spent  38.1  cannot 0.15  n=96  (text interface)
+compact          +0.125 ± 0.164  correct 0.55  spent  26.0  cannot 0.23  n=96  (text interface)
+compact_smart    +0.287 ± 0.165  correct 0.71  spent  25.3  cannot 0.07  n=96  (text interface)
+eig_text         +0.367 ± 0.149  correct 0.79  spent  37.4  cannot 0.08  n=96  (text interface)
+random           -0.641 ± 0.119  correct 0.05  spent  15.0  cannot 0.38  n=96  (text interface)
+always_none      -0.396 ± 0.185  correct 0.30  spent   0.0  cannot 0.00  n=96  (text interface)
+always_cannot    +0.000 ± 0.000  correct 0.00  spent   0.0  cannot 1.00  n=96  (text interface)
+eig              +0.412 ± 0.161  correct 0.77  spent  25.3  cannot 0.07  n=96  (simulator)
+hindsight        +0.743 ± 0.063  correct 0.86  spent  15.2  cannot 0.14  n=96  (simulator)
+{'level': 'hard', 'set': 'dev (test seeds 3000-3095)', 'reward_mode': 'strict0', 'wrong_penalty': 1.0, 'cost': 0.008, 'eig_stop_rule': {'p_stop': 0.8, 'rate_thr': 0.02, 'min_spend': 6, 'c_abst': -0.1}, 'frac_no_planet': 0.3020833333333333, 'headroom_compact_to
+paired compact_smart - compact: +0.162 [+0.067, +0.266]
+paired teacher - compact: +0.382 [+0.253, +0.516]
+paired eig - compact: +0.242 [+0.089, +0.397]

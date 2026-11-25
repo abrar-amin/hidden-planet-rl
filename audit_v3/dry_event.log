@@ -1,0 +1,54 @@
+=== event.sh sft fixed ===
+=== event.sh sft fit ===
+=== event.sh sft compact ===
+=== event.sh sft lite ===
+gates: fixed=FAIL fit=PASS compact=PASS lite=PASS 
+=== event.sh rl fixed 0 (no FORCE) ===
+exit code 2 (2 = refused because the gate failed; 0 = gate had passed and RL ran)
+=== FORCE=1 event.sh rl fixed 0 ===
+=== FORCE=1 event.sh rl fixed 1 ===
+=== FORCE=1 event.sh control fixed ===
+=== FORCE=1 event.sh rl fit 0 ===
+=== FORCE=1 event.sh rl compact 0 ===
+=== FORCE=1 event.sh rl lite 0 ===
+=== v3 checks: training reward, shape and futility rule ===
+rl_fixed_s0 trained on the expected score: yes
+rl_fixed_s0 futility check: {"step0_es": -0.32226306504277863, "step": 2, "step_es": 0.3084134571679642, "delta": 0.6306765222107429, "verdict": "CONTINUE"}
+rl_fixed_s1 futility check: {"step0_es": -0.3638794355085761, "step": 2, "step_es": 0.278935171057063, "delta": 0.642814606565639, "verdict": "CONTINUE"}
+no arm stopped by itself: simulated a futility stop for rl_fixed_s1
+=== event.sh final ===
+=== event.sh sealed (dry: seeds 9000+, arm forced to rl_fixed_s0) ===
+EVENT_DIR=runs/event_dry_123237
+GATE (no-answer rate <= 0.05 in both decodings): FAIL - RL will not start from this init (inspect final_dev_*_traces.jsonl)
+GATE (no-answer rate <= 0.05 in both decodings): PASS
+GATE (no-answer rate <= 0.05 in both decodings): PASS
+GATE (no-answer rate <= 0.05 in both decodings): PASS
+[12:35:07] GATE not passed for sft_fixed: refusing to start RL (FORCE=1 overrides and must be reported)
+[12:41:39] rl_fixed_s1: FUTILITY STOP (pre-registered); no dev evaluation: DRY-RUN SIMULATED futility stop (to exercise the final/verdict path)
+[rl_fixed_s1] FUTILITY STOP (pre-registered; not evaluated on this set, cannot succeed): DRY-RUN SIMULATED futility stop (to exercise the final/verdict path)
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, sampled): NOT MET
+[rl_fixed_s1] FUTILITY STOP (pre-registered; not evaluated on this set, cannot succeed): DRY-RUN SIMULATED futility stop (to exercise the final/verdict path)
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, greedy): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, sampled): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, greedy): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, sampled): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, greedy): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, sampled): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (dev, greedy): NOT MET
+[12:44:33] sealed evaluation for the pre-registered best arm: rl_fixed_s0
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (sealed, sampled): NOT MET
+arm for the sealed set by the pre-registered rule: none (no arm succeeded; the sealed set stays unused)
+PRE-REGISTERED RESULT (sealed, greedy): NOT MET
+     129
+sealed lock untouched
+DRY_EVENT_DONE
+dry exit 0

@@ -1,0 +1,10 @@
+fixed          ES +0.275  reward +0.314 ± 0.055  correct 0.74  spent  40.0  cannot 0.15
+teacher        ES +0.387  reward +0.460 ± 0.048  correct 0.83  spent  38.9  cannot 0.12
+eig            ES +0.438  reward +0.451 ± 0.052  correct 0.85  spent  38.6  cannot 0.07
+compact        ES +0.199  reward +0.182 ± 0.064  correct 0.58  spent  26.7  cannot 0.24
+compact_smart  ES +0.302  reward +0.307 ± 0.066  correct 0.72  spent  26.1  cannot 0.07
+lite_teacher   ES +0.303  reward +0.308 ± 0.059  correct 0.74  spent  37.8  cannot 0.14
+random         ES -0.567  reward -0.576 ± 0.054  correct 0.09  spent  14.9  cannot 0.36
+always_none    ES -0.300  reward -0.375 ± 0.131  correct 0.31  spent   0.0  cannot 0.00
+always_cannot  ES +0.000  reward +0.000 ± 0.000  correct 0.00  spent   0.0  cannot 1.00
+{'first_seed': 3000, 'n': 192, 'policy_seeds': 3, 'eval_set': 'fixed', 'reward_mode': 'strict0', 'cost': 0.008, 'level': 'hard', 'frac_no_planet': 0.3125}

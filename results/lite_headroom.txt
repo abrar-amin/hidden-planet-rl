@@ -1,0 +1,11 @@
+thresholds tuned on 300 train seeds (36 settings): {'det': 20.0, 'sep': 14.0, 'ksnr': 4.0, 'sep_low': 4.0}  (train reward +0.263)
+
+DEV set (test seeds 3000-3095), strict0, cost 0.008:
+  a  lite teacher (threshold rule)                               +0.259 [+0.104, +0.405]   minus lite teacher: +0.000 [+0.000, +0.000]
+  b  same purchases + logistic decision on lite statistics       +0.269 [+0.108, +0.419]   minus lite teacher: +0.010 [-0.042, +0.062]
+  c1 same purchases + exact-posterior decision, lite numbers     +0.311 [+0.164, +0.446]   minus lite teacher: +0.052 [+0.000, +0.104]
+  c2 same purchases + exact-posterior decision and numbers       +0.405 [+0.273, +0.524]   minus lite teacher: +0.146 [+0.062, +0.240]
+  d  oracle-level teacher (text tools, own purchases)            +0.507 [+0.402, +0.604]   minus lite teacher: +0.248 [+0.148, +0.363]
+  d  oracle-level eig (text tools, own purchases)                +0.367 [+0.213, +0.509]   minus lite teacher: +0.109 [-0.041, +0.257]
+  d  oracle-level compact (text tools, own purchases)            +0.125 [-0.037, +0.283]   minus lite teacher: -0.134 [-0.255, -0.015]
+  lite teacher on dev: planet 47, none 35, cannot 14; spent 37.9; mean posterior probability of its planet answers 0.88

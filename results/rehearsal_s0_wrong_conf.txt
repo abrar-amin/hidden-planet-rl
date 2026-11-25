@@ -1,0 +1,29 @@
+step 0: 48 eval episodes; right 32 (mean fit confidence 0.88, 3% below 0.5); wrong 3 (mean confidence 0.35; below 0.5: 2, 0.5-0.8: 1, >=0.8: 0)
+      wrong none   confidence 0.00  transits 0  RVs 0  spent 0
+      wrong planet confidence 0.40  transits 52  RVs 2  spent 58
+      wrong planet confidence 0.65  transits 16  RVs 12  spent 52
+      under strict0 scoring: actual behaviour +0.267; same episodes with every <0.5-confidence answer replaced by 'cannot' +0.287
+step 5: 48 eval episodes; right 31 (mean fit confidence 0.86, 3% below 0.5); wrong 10 (mean confidence 0.49; below 0.5: 5, 0.5-0.8: 4, >=0.8: 1)
+      wrong none   confidence 0.00  transits 16  RVs 14  spent 58
+      wrong planet confidence 0.02  transits 14  RVs 13  spent 53
+      wrong planet confidence 0.32  transits 16  RVs 0  spent 16
+      wrong planet confidence 0.37  transits 12  RVs 7  spent 33
+      wrong planet confidence 0.42  transits 15  RVs 15  spent 60
+      wrong planet confidence 0.54  transits 23  RVs 12  spent 59
+      wrong planet confidence 0.73  transits 13  RVs 12  spent 49
+      wrong none   confidence 0.74  transits 16  RVs 0  spent 16
+      wrong none   confidence 0.78  transits 16  RVs 0  spent 16
+      wrong planet confidence 0.94  transits 16  RVs 14  spent 58
+      under strict0 scoring: actual behaviour +0.109; same episodes with every <0.5-confidence answer replaced by 'cannot' +0.192
+step 10: 48 eval episodes; right 34 (mean fit confidence 0.87, 3% below 0.5); wrong 10 (mean confidence 0.38; below 0.5: 6, 0.5-0.8: 3, >=0.8: 1)
+      wrong none   confidence 0.00  transits 16  RVs 13  spent 55
+      wrong none   confidence 0.00  transits 0  RVs 0  spent 0
+      wrong planet confidence 0.00  transits 14  RVs 0  spent 14
+      wrong none   confidence 0.01  transits 16  RVs 0  spent 16
+      wrong planet confidence 0.39  transits 16  RVs 14  spent 58
+      wrong planet confidence 0.44  transits 15  RVs 4  spent 27
+      wrong none   confidence 0.63  transits 15  RVs 0  spent 15
+      wrong planet confidence 0.64  transits 15  RVs 15  spent 60
+      wrong planet confidence 0.73  transits 16  RVs 12  spent 52
+      wrong planet confidence 0.99  transits 16  RVs 14  spent 58
+      under strict0 scoring: actual behaviour +0.179; same episodes with every <0.5-confidence answer replaced by 'cannot' +0.283
